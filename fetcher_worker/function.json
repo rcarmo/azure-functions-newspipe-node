@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "inputQueue",
+      "queueName": "feedurls",
+      "connection": "AzureWebJobsStorage",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "outputQueue",
+      "queueName": "feeditems",
+      "connection": "AzureWebJobsStorage",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

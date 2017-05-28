@@ -1,0 +1,18 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */30 * * * *"
+    },
+    {
+      "name": "outputQueue",
+      "queueName": "feedurls",
+      "connection": "AzureWebJobsStorage",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}

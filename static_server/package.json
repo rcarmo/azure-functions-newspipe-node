@@ -1,0 +1,14 @@
+{
+  "name": "static_server",
+  "version": "1.0.0",
+  "description": "Static file server for Azure Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rui Carmo",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.15"
+  }
+}

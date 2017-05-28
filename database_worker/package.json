@@ -1,0 +1,15 @@
+{
+  "name": "database_worker",
+  "version": "1.0.0",
+  "description": "Database Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rui Carmo",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.0",
+    "mongodb": "^2.2.26"
+  }
+}

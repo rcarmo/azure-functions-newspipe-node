@@ -1,0 +1,17 @@
+{
+  "name": "fetcher_worker",
+  "version": "1.0.0",
+  "description": "Feed fetcher",
+  "main": "index.js",
+  "dependencies": {
+    "feedparser": "^2.2.0",
+    "html2plaintext": "^1.1.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rui Carmo",
+  "license": "MIT"
+}

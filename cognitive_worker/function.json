@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "inputQueue",
+      "queueName": "unclassifieditems",
+      "connection": "AzureWebJobsStorage",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "outputQueue",
+      "queueName": "classifieditems",
+      "connection": "AzureWebJobsStorage",
+      "type": "queue",
+      "direction": "out"
+    }
+  ]
+}
